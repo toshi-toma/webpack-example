@@ -7,8 +7,10 @@ webpackの設定
 $ npm install --save-dev webpack webpack-cli webpack-dev-server
 ```
 
-# 実行
+# ビルド実行
 
-```bash
-$ npx webpack
+```json
+  "scripts": {
+    "build": "webpack"
+  },
 ```
