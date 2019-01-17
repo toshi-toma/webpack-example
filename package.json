@@ -1,0 +1,26 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "webpackの設定",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --devtool cheap-module-source-map",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshi-toma/webpack-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshi-toma/webpack-example/issues"
+  },
+  "homepage": "https://github.com/toshi-toma/webpack-example#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
