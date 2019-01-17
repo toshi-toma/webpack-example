@@ -4,8 +4,7 @@
   "description": "webpackの設定",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --devtool cheap-module-source-map",
-    "build": "webpack --mode production"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

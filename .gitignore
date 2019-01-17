@@ -13,5 +13,5 @@ yarn-error.log
 
 # build
 build/
-dist/
 public/bundle.js
+dist/main.js
