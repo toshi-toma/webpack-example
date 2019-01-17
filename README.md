@@ -14,3 +14,13 @@ $ npm install --save-dev webpack webpack-cli webpack-dev-server
     "build": "webpack"
   },
 ```
+
+# 開発サーバー
+
+webpack-dev-serverを利用する。
+
+```json
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+```
