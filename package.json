@@ -4,7 +4,7 @@
   "description": "webpackの設定",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "devDependencies": {
