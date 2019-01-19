@@ -24,3 +24,15 @@ webpack-dev-serverを利用する。
     "start": "webpack-dev-server --open"
   },
 ```
+
+# 本番/開発モードの選択
+
+モードオプションでdevelopment or productionのモードを指定する。  
+デフォルトではproduction。
+
+```json
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+```

@@ -9,6 +9,13 @@ module.exports = {
     // 出力先のファイル名
     filename: 'main.js'
   },
+
+  /**
+   * source mapを生成
+   * デフォルトはeval
+   */
+  devtool: 'hidden-source-map',
+
   // 開発サーバーの設定
   devServer: {
     /*
@@ -40,6 +47,5 @@ module.exports = {
       // 除外するフォルダ
       ignored: /node_modules/
     }
-
   }
 }

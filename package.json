@@ -4,8 +4,8 @@
   "description": "webpackの設定",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server --mode development --devtool eval-source-map",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "webpack": "^4.28.4",
