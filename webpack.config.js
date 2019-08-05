@@ -1,3 +1,6 @@
+/**
+ * @type import('webpack').Configuration
+ */
 module.exports = {
   // エントリーポイントを指定
   entry: './src/index.js',
